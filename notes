@@ -1,0 +1,21 @@
+config heroku
+
+heroku login + create
+
+git push keroku 
+
+penser à configurer "database.yml"
+avec : 
+
+production:
+  # <<: *default
+  # database: db/production.sqlite3
+  adapter: postgresql
+  host: ec2-23-21-111-81.compute-1.amazonaws.com
+  username: cqjpoaqdvrrkvi
+  database: ddg0g77m5nr0v6
+  password: LHZ9QZPkpowvzt1CE6DCcCSj_i
+
+finir avec : 
+rake db:migrate
+
