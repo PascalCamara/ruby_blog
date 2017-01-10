@@ -22,9 +22,9 @@ test:
 
 production:
   # <<: *default
-  # database: db/production.sqlite3
-  adapter: postgresql
-  host: ec2-50-19-116-106.compute-1.amazonaws.com
-  username: axsezcvuoxhtyb
-  database: de1ksm9b4qngjb
-  password: 4b87acc17980186831ac4cadc6a9a67b76b5133f2ca0252cbba3f95b0441eaa4
+  database: db/production.sqlite3
+  # adapter: postgresql
+  # host: ec2-50-19-116-106.compute-1.amazonaws.com
+  # username: axsezcvuoxhtyb
+  # database: de1ksm9b4qngjb
+  # password: 4b87acc17980186831ac4cadc6a9a67b76b5133f2ca0252cbba3f95b0441eaa4
